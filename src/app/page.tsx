@@ -216,7 +216,7 @@ export default function Home() {
         </div>
 
         {/* Community Section */}
-        <section className="mt-24 text-center max-w-[90%] mx-auto">
+        <section className="mt-20 md:mt-40 text-center max-w-[90%] mx-auto ">
           {/* Logo Section */}
           <div className="mb-8">
             <Image
@@ -247,7 +247,7 @@ export default function Home() {
               alt="Coffee Cup Illustration"
               width={1200}
               height={600}
-              className="mx-auto w-full max-w-[95%]"
+              className="mx-auto w-full max-w-[95%] my-20 md:my-40"
             />
           </div>
         </section>
@@ -261,7 +261,7 @@ export default function Home() {
           {/* Header Section */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 text-center ">
             {/* Left Text Column */}
-            <div className="flex flex-col items-end">
+            <div className="flex flex-col items-center sm:items-end">
               <span className="text-4xl md:text-5xl lg:text-6xl font-bold">
                 Join Our
               </span>
@@ -282,7 +282,7 @@ export default function Home() {
             </div>
 
             {/* Right Text Column */}
-            <div className="flex flex-col items-start">
+            <div className="flex flex-col items-center sm:items-start">
               <span className="text-4xl md:text-5xl lg:text-6xl font-bold">
                 Coffee
               </span>
@@ -298,14 +298,14 @@ export default function Home() {
           </p>
 
           {/* Buttons Section */}
-          <div className="flex flex-row gap-x-4 sm:gap-x-6 justify-center items-center font-bold mt-6 w-full max-w-[800px]">
+          <div className="flex flex-row gap-2 sm:gap-10 justify-center items-center font-bold mt-6 w-full max-w-[800px]">
             <Link href="/share">
-              <button className="w-full sm:w-[200px] md:w-[240px] lg:w-[280px] h-[60px] bg-black text-[#bebfa8] text-base sm:text-lg rounded-md hover:bg-gray-800 transition-colors flex items-center justify-center">
+              <button className="px-6 sm:px-12 md:px-24 py-4 sm:py-6 bg-black text-[#bebfa8] text-sm sm:text-base md:text-2xl rounded-md hover:bg-gray-800 transition-colors whitespace-nowrap">
                 Review a Cafe!
               </button>
             </Link>
             <Link href="/add-cafe">
-              <button className="w-full sm:w-[200px] md:w-[240px] lg:w-[280px] h-[60px] bg-black text-[#bebfa8] text-base sm:text-lg rounded-md hover:bg-gray-800 transition-colors flex items-center justify-center">
+              <button className="px-6 sm:px-12 md:px-24 py-4 sm:py-6 bg-black text-[#bebfa8] text-sm sm:text-base md:text-2xl rounded-md hover:bg-gray-800 transition-colors whitespace-nowrap">
                 Add a New Cafe
               </button>
             </Link>
