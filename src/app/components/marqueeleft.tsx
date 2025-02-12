@@ -40,15 +40,15 @@ export default function Bannerbelow() {
                 key={index}
                 className="mx-4 border-2 border-[#000000] rounded-lg p-6 w-[300px] sm:w-[350px] md:w-[400px] flex flex-col justify-between  min-h-[15rem] sm:min-h-[16.875rem] md:min-h-[18.75rem] min-w-[18.75rem] sm:min-w-[25rem] md:min-w-[31.25rem]"
               >
-                <p className="font-manrope font-medium text-black text-xl whitespace-normal my-auto">
+                <p className="font-manrope font-medium text-black text-base sm:text-lg md:text-xl whitespace-normal my-auto flex">
                   &quot;{card.description}&quot;
                 </p>
-                <div className="flex items-center justify-between text-xl">
+                <div className="flex items-center justify-between  text-sm sm:text-base md:text-xl">
                   <div className="flex items-center gap-2">
                     <img
                       src={card.profileImg}
                       alt=""
-                      className="w-6 h-6 rounded-full"
+                      className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 rounded-full"
                     />
                     <span className="font-manrope font-medium text-black">
                       {card.name}
@@ -72,17 +72,17 @@ export default function Bannerbelow() {
             {cards.map((card, index) => (
               <div
                 key={index}
-                className="mx-4 border-2 border-[#000000] rounded-lg p-6 w-[400px] flex flex-col justify-between min-h-[18.75rem] min-w-[31.25rem] scale-75 sm:scale-90 md:scale-100"
+                className="mx-4 border-2 border-[#000000] rounded-lg p-6 w-[300px] sm:w-[350px] md:w-[400px] flex flex-col justify-between min-h-[15rem] sm:min-h-[16.875rem] md:min-h-[18.75rem] min-w-[18.75rem] sm:min-w-[25rem] md:min-w-[31.25rem]"
               >
-                <p className="font-manrope font-medium text-black text-xl whitespace-normal my-auto">
+                <p className="font-manrope font-medium text-black text-base sm:text-lg md:text-xl whitespace-normal my-auto">
                   &quot;{card.description}&quot;
                 </p>
-                <div className="flex items-center justify-between text-xl">
+                <div className="flex items-center justify-between text-sm sm:text-base md:text-xl">
                   <div className="flex items-center gap-2">
                     <img
                       src={card.profileImg}
                       alt=""
-                      className="w-6 h-6 rounded-full"
+                      className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 rounded-full"
                     />
                     <span className="font-manrope font-medium text-black">
                       {card.name}
