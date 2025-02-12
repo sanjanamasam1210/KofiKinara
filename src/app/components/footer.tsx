@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-row justify-between items-start md:items-center mb-20">
           <div className="mb-6 md:mb-0">
             <h2 className="text-3xl font-bold mb-2">
-              We'd love to hear from you!
+              We&apos;d love to hear from you!
             </h2>
             <p>Created by Adnan Memos & Sanjana Masam</p>
           </div>

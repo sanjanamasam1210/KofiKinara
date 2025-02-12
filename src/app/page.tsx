@@ -166,11 +166,11 @@ export default function Home() {
               कॉफी किनारा
             </h1>
             <p className="font-manrope font-regular text-base sm:text-lg lg:text-xl text-justify leading-relaxed">
-              From aromatic brews to cozy vibes, Hyderabad’s cafes have
-              something for everyone. We've brought together the finest cafes
-              for every mood and moment. Whether you're a coffee connoisseur or
-              just looking for a place to relax, this is your guide to it all.
-              Enjoy the best of the city, one cup at a time.
+              From aromatic brews to cozy vibes, Hyderabad&apos;s cafes have
+              something for everyone. We&apos;ve brought together the finest
+              cafes for every mood and moment. Whether you&apos;re a coffee
+              connoisseur or just looking for a place to relax, this is your
+              guide to it all. Enjoy the best of the city, one cup at a time.
             </p>
           </div>
 
@@ -230,14 +230,14 @@ export default function Home() {
 
           {/* Title Section */}
           <h1 className="text-3xl sm:text-6xl lg:text-7xl font-manrope font-bold mb-6 ">
-            Your Community-Crafted Guide to Hyderabad's Coffee Culture
+            Your Community-Crafted Guide to Hyderabad&apos;s Coffee Culture
           </h1>
 
           {/* Subtitle Section */}
           <p className="text-base sm:text-xl lg:text-2xl font-manrope font-medium mb-16 px-4 sm:px-12 lg:px-20">
             A place where coffee lovers connect, share their favorite spots, and
             help others discover the perfect brew. Join us in building
-            Hyderabad's most trusted café community.
+            Hyderabad&apos;s most trusted café community.
           </p>
 
           {/* Coffee Cup Card Section */}
