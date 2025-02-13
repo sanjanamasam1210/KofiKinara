@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <header className="m-4 border-3 rounded-sm border-black md:h-[10vh] h-[8vh] flex items-center">
+    <header className="m-4 border-3 rounded-sm border-black md:h-16 h-10 flex items-center">
       <div className="w-full flex items-center justify-between h-full px-2 sm:px-[1vw]">
         {/* Logo */}
         <div className="flex items-center">
