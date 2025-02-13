@@ -119,7 +119,12 @@ export default {
   		},
 		fontSize:{
 			'11xl':'192px'
-		}
+		},
+		minWidth:{
+			'90':'350px',
+			'100':'420px',
+			'104':'500px'
+		},
   	}
   },
   plugins: [require("tailwindcss-animate")],

@@ -42,7 +42,7 @@ export default function Home() {
         {/* Featured Cafes and Brew Guides Section */}
         <div className="flex flex-col md:flex-row items-stretch justify-between mt-14 gap-8">
           {/* Left Box */}
-          <div className="w-full md:w-[49%] border-[3px] border-black rounded-xl p-6 min-h-[300px] md:min-h-[450px] lg:min-h-[550px] flex flex-col justify-between items-start">
+          <div className="w-full md:w-[49%] border-2 md:border-3 border-black rounded-xl p-6 min-h-[300px] md:min-h-[450px] lg:min-h-[550px] flex flex-col justify-between items-start">
             <Image
               src="/logo1.svg"
               alt="Kofi Kinara Logo 1"
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
 
           {/* Right Box */}
-          <div className="w-full md:w-[49%] border-[3px] border-black rounded-xl p-6 min-h-[300px]  lg:min-h-[550px] flex flex-col justify-between items-start">
+          <div className="w-full md:w-[49%] border-2 md:border-3 border-black rounded-xl p-6 min-h-[300px]  lg:min-h-[550px] flex flex-col justify-between items-start">
             <Image
               src="/logo1.svg"
               alt="Kofi Kinara Logo 2"
