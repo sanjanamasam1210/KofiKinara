@@ -1,17 +1,21 @@
+import Image from "next/image";
+
 export default function Navbar() {
   return (
     <header className="m-4 border-3 rounded-sm border-black md:h-[10vh] h-[8vh] flex items-center">
       <div className="w-full flex items-center justify-between h-full px-2 sm:px-[1vw]">
         {/* Logo */}
         <div className="flex items-center">
-          <img
+          <Image
             src="/logo.svg"
             alt="Logo"
-            className=""
+            width={40}
+            height={40}
+            className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
           />
         </div>
         {/* Name */}
-        <span className="font-manrope font-medium text-[1.8rem] md:text-[1.5rem] text-center">
+        <span className="font-manrope font-medium text-xl sm:text-2xl md:text-3xl text-center">
           Kofi Kinara
         </span>
       </div>
