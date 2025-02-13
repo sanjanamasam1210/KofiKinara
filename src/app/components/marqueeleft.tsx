@@ -31,8 +31,8 @@ export default function Bannerbelow() {
   ];
 
   return (
-    <div className="text-[#bebfa8] text-md pb-8 pt-3 mb-40 sm:mb-48 md:mb-56 lg:mb-72 whitespace-nowrap relative overflow-x-clip">
-      <div className="inline-flex absolute animate-scroll-rtl">
+    <div className="text-[#bebfa8] text-md pb-8 pt-3 mb-40 sm:mb-48 md:mb-56 lg:mb-72 whitespace-nowrap relative overflow-x-clip group">
+      <div className="inline-flex absolute animate-scroll-rtl group-hover:paused">
         {[...Array(2)].map((_, i) => (
           <div key={i} className="flex">
             {cards.map((card, index) => (
@@ -40,7 +40,7 @@ export default function Bannerbelow() {
                 key={index}
                 className="mx-3 md:mx-4 border-2 border-[#000000] rounded-lg p-6 flex flex-col justify-between  min-h-44 min-w-80 sm:min-h-52 sm:min-w-90  md:min-h-60 md:min-w-100 lg:min-h-72 lg:min-w-104"
               >
-                <p className="font-manrope font-medium text-black text-xs sm:text-sm md:text-base lg:text-xl whitespace-normal my-auto flex">
+                <p className="font-manrope font-normal text-black text-xs sm:text-sm md:text-base lg:text-xl whitespace-normal my-auto flex">
                   &quot;{card.description}&quot;
                 </p>
                 <div className="flex items-center justify-between  text-sm md:text-base lg:text-xl">
@@ -64,7 +64,7 @@ export default function Bannerbelow() {
         ))}
       </div>
       <div
-        className="inline-flex absolute animate-scroll2-rtl"
+        className="inline-flex absolute animate-scroll2-rtl group-hover:paused"
         aria-hidden="true"
       >
         {[...Array(2)].map((_, i) => (
@@ -72,9 +72,9 @@ export default function Bannerbelow() {
             {cards.map((card, index) => (
               <div
                 key={index}
-                className="mx-3 md:mx-4 border-2 border-[#000000] rounded-lg p-6flex flex-col justify-between  min-h-44 min-w-80 sm:min-h-52 sm:min-w-90  md:min-h-60 md:min-w-100 lg:min-h-72 lg:min-w-104"
+                className="mx-3 md:mx-4 border-2 border-[#000000] rounded-lg p-6 flex flex-col justify-between  min-h-44 min-w-80 sm:min-h-52 sm:min-w-90  md:min-h-60 md:min-w-100 lg:min-h-72 lg:min-w-104"
               >
-                <p className="font-manrope font-medium text-black text-xs sm:text-sm md:text-base lg:text-xl whitespace-normal my-auto">
+                <p className="font-manrope font-normal text-black text-xs sm:text-sm md:text-base lg:text-xl whitespace-normal my-auto flex">
                   &quot;{card.description}&quot;
                 </p>
                 <div className="flex items-center justify-between text-sm md:text-base lg:text-xl">

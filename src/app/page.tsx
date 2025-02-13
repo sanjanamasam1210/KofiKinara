@@ -112,7 +112,7 @@ export default function Home() {
         <Bannerbelow />
 
         {/* Join Community Section */}
-        <div className="flex flex-col items-center justify-center py-16 px-4 bg-[#BEC1A7] text-black font-manrope">
+        <div className="flex flex-col items-center justify-center py-16 px-4 bg-[#BEC1A7] text-black font-manrope mb-10">
           {/* Header Section */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 text-center ">
             {/* Left Text Column */}

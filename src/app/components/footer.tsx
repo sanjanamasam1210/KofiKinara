@@ -14,7 +14,6 @@ export default function Footer() {
             <p className=" text-xs sm:text-sm md:text-base">
               Created by Adnan Memos & Sanjana Masam
             </p>
-            xxx
           </div>
           <div className="self-center">
             <button
@@ -125,7 +124,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-end mt-16 sm:mt-24 space-y-6 lg:space-y-0 ">
           {/* Left Section */}
-          <span className="text-7xl sm:text-8xl md:text-9xl lg:text-11xl font-extrabold text-[#BEC1A7] leading-none text-center lg:text-left ">
+          <span className="text-7xl sm:text-8xl md:text-9xl lg:text-11xl max-w-[65%] md:max-w-[70%] font-extrabold text-[#BEC1A7] leading-none text-center lg:text-left ">
             Kofi Kinara
           </span>
 
