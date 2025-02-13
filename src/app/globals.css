@@ -93,6 +93,7 @@ body {
 ::selection {
   background-color: black;
   color: #BEC1A7;
+  mix-blend-mode: difference;
     }
 
 * {
@@ -114,4 +115,16 @@ p, span, h1, h2, h3, h4, h5, h6 {
 /* Prevent image dragging specifically */
 img {
   pointer-events: none;
+}
+
+.hover-underline {
+  @apply  relative;
+}
+
+.hover-underline::after {
+  @apply content-[''] absolute w-full scale-x-0 h-px bottom-0 left-0 bg-[#BEC1A7] origin-left transition-transform duration-500 ease-out;
+}
+
+.hover-underline:hover::after {
+  @apply scale-x-100;
 }

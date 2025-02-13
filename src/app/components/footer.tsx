@@ -40,7 +40,7 @@ export default function Footer() {
               href="https://github.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline decoration-1 underline-offset-2 flex items-center"
+              className="hover-underline decoration-1 underline-offset-2 flex items-center"
             >
               <span>Github</span>
               <Image
@@ -55,7 +55,7 @@ export default function Footer() {
               href="https://ko-fi.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline decoration-1 underline-offset-2 flex items-center"
+              className="hover-underline decoration-1 underline-offset-2 flex items-center "
             >
               <span>Buy us a Kofi</span>
               <Image
@@ -100,7 +100,7 @@ export default function Footer() {
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline decoration-1 underline-offset-2 flex items-center text-sm md:text-base"
+            className="hover-underline decoration-1 underline-offset-2 flex items-center text-sm md:text-base"
           >
             <span>Instagram</span>
             <Image
@@ -115,9 +115,16 @@ export default function Footer() {
             href="#"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline decoration-1 underline-offset-2 flex items-center text-sm md:text-base break-all" // Break-all ensures email wraps on small screens
+            className="hover-underline decoration-1 underline-offset-2 flex items-center text-sm md:text-base break-all"
           >
             hello@kofikinara.com
+            <Image
+              src="/crossarrow.svg"
+              alt="External link"
+              width={10}
+              height={10}
+              className="ml-1"
+            />
           </a>
         </div>
 
@@ -136,7 +143,7 @@ export default function Footer() {
             {/* ©2025 and Terms of Use */}
             <div className="flex flex-row gap-2 lg:flex-col items-center sm:items-start lg:items-end">
               <span>©2025</span>
-              <a href="#" className="hover:underline">
+              <a href="#" className="hover-underline">
                 Terms of use
               </a>
             </div>
