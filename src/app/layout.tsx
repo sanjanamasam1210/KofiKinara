@@ -46,6 +46,7 @@
 // }
 
 import type { Metadata } from "next";
+import Footer from "./components/footer";
 import { Hind, Inter, Manrope } from "next/font/google";
 import "./globals.css";
 // import Footer from "./components/footer";
@@ -100,7 +101,7 @@ export default function RootLayout({
         {/* Main Content */}
         <main className="min-h-screen">{children}</main>
         {/* Footer */}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

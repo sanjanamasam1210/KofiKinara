@@ -229,12 +229,12 @@ export default function Home() {
           </div>
 
           {/* Title Section */}
-          <h1 className="text-3xl sm:text-6xl lg:text-7xl font-manrope font-bold mb-6 ">
+          <h1 className="text-2xl sm:text-6xl lg:text-7xl font-manrope font-bold mb-6 ">
             Your Community-Crafted Guide to Hyderabad&apos;s Coffee Culture
           </h1>
 
           {/* Subtitle Section */}
-          <p className="text-base sm:text-xl lg:text-2xl font-manrope font-medium mb-16 px-4 sm:px-12 lg:px-20">
+          <p className="text-sm sm:text-xl lg:text-2xl font-manrope font-medium mb-16 px-4 sm:px-12 lg:px-20">
             A place where coffee lovers connect, share their favorite spots, and
             help others discover the perfect brew. Join us in building
             Hyderabad&apos;s most trusted café community.
