@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Bannerabove() {
   const cards = [
     {
@@ -31,7 +33,7 @@ export default function Bannerabove() {
   ];
 
   return (
-    <div className="text-[#bebfa8] text-md pb-8 pt-3 mb-40 sm:mb-48 md:mb-56 lg:mb-72 whitespace-nowrap relative overflow-x-clip group">
+    <div className="text-[#bebfa8] text-md pb-8 pt-3 mb-40 sm:mb-48 md:mb-56 lg:mb-72 whitespace-nowrap relative overflow-x-clip group -mx-4 sm:-mx-8">
       <div className="inline-flex absolute animate-scroll group-hover:paused">
         {[...Array(2)].map((_, i) => (
           <div key={i} className="flex">
@@ -45,9 +47,11 @@ export default function Bannerabove() {
                 </p>
                 <div className="flex items-center justify-between text-xs sm:text-sm md:text-base lg:text-xl">
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
                       src={card.profileImg}
                       alt=""
+                      width={50}
+                      height={50}
                       className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 rounded-full"
                     />
                     <span className="font-manrope font-medium text-black">
@@ -79,9 +83,11 @@ export default function Bannerabove() {
                 </p>
                 <div className="flex items-center justify-between text-xs sm:text-sm md:text-base lg:text-xl">
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
                       src={card.profileImg}
                       alt=""
+                      width={50}
+                      height={50}
                       className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 rounded-full"
                     />
                     <span className="font-manrope font-medium text-black">

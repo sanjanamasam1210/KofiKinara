@@ -31,9 +31,11 @@ export default function Home() {
 
           {/* Right Side: Image */}
           <div className="flex justify-center w-full md:w-auto">
-            <img
+            <Image
               src="/log.svg"
               alt="Coffee Cup"
+              width={180}
+              height={80}
               className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[500px]"
             />
           </div>
@@ -58,7 +60,7 @@ export default function Home() {
           {/* Right Box */}
           <div className="w-full md:w-[49%] border-2 md:border-3 border-black rounded-xl p-6 min-h-[300px]  lg:min-h-[550px] flex flex-col justify-between items-start">
             <Image
-              src="/logo1.svg"
+              src="/cups1.svg"
               alt="Kofi Kinara Logo 2"
               width={180}
               height={80}
