@@ -161,7 +161,7 @@ export default function Home() {
                 Review a Cafe!
               </button>
             </Link>
-            <Link href="/add-cafe">
+            <Link href="/cafe">
               <button className="px-6 sm:px-12 md:px-24 py-4 sm:py-6 bg-black text-[#bebfa8] text-sm sm:text-base md:text-2xl rounded-md hover:bg-gray-800 transition-colors whitespace-nowrap">
                 Add a New Cafe
               </button>
